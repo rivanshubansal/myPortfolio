@@ -45,14 +45,15 @@ hr {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: black;
+    /* margin-left: 35%; */
 }
 
 .link-secondary {
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
-}
 
+}
 /** BEM naming convention for css **/
 
 /** lists **/
@@ -99,7 +100,7 @@ hr {
 }
 
 .hero .hero-img {
-    max-width: 350px;
+    max-width: 200px;
     display: block;
     margin: auto;   
 }
@@ -151,5 +152,6 @@ footer {
 }
 
 .footer ul {
-    padding-inline-start: 0px;
+    padding-inline-start:0px;
 }
+
